@@ -1,4 +1,4 @@
-# RF - Regra 
+# RF - Requisitos Funcionais
 
 - [ ] O usuário deve poder criar uma nova transação;
 - [ ] O usuário deve poder obter um resumo da sua conta;
