@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import { Knex } from 'knex'
 
-declare module 'next/types/tables' {
+declare module 'knex/types/tables' {
   export interface Tables {
     transactions: {
       id: string
