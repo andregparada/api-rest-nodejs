@@ -8,6 +8,7 @@
     "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js",
     "lint": "eslint src --ext .ts --fix",
     "eslint:fix": "eslint --ext .js,.ts src --fix",
+    "build": "tsup src --out-dir build",
     "test": "vitest"
   },
   "keywords": [],
@@ -19,6 +20,7 @@
     "@types/supertest": "^6.0.2",
     "eslint": "^8.33.0",
     "supertest": "^7.0.0",
+    "tsup": "^8.0.2",
     "tsx": "^4.0.0",
     "typescript": "^5.1.6",
     "vitest": "^1.5.2"
